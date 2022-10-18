@@ -1,0 +1,31 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Electric"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Static"
+        },
+        {
+          "trait_type": "Hidden Ability",
+          "value": "Lightning Rod"
+        },
+        {
+            "trait_type": "Species",
+            "value": "Mouse Pokémon"
+        },
+        {
+          "trait_type": "Height",
+          "value": "0.4 m"
+        },
+        {
+        "trait_type": "Weight",
+        "value": "6 kg"
+        }
+    ],
+    "description": "Pikachu",
+    "url": "https://gateway.pinata.cloud/ipfs/QmYkaEgJWvU2ah6qkVJYrsTagXA19womGshA6wKBe5nAZx/1.jpg",
+    "name": "Pikachu"
+}

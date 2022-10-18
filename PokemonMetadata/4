@@ -1,0 +1,31 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Fire"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Blaze"
+        },
+        {
+          "trait_type": "Hidden Ability",
+          "value": "Solar Power"
+        },
+        {
+            "trait_type": "Species",
+            "value": "Lizard Pokémon"
+        },
+        {
+          "trait_type": "Height",
+          "value": "0.6 m"
+        },
+        {
+        "trait_type": "Weight",
+        "value": "8.5 kg"
+        }
+    ],
+    "description": "Charmander",
+    "url": "https://gateway.pinata.cloud/ipfs/QmYkaEgJWvU2ah6qkVJYrsTagXA19womGshA6wKBe5nAZx/4.jpg",
+    "name": "Charmander"
+}

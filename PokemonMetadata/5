@@ -1,0 +1,31 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Water"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Torrent"
+        },
+        {
+          "trait_type": "Hidden Ability",
+          "value": "Sheer Force"
+        },
+        {
+            "trait_type": "Species",
+            "value": "Big Jaw Pokémon"
+        },
+        {
+          "trait_type": "Height",
+          "value": "0.6 m"
+        },
+        {
+        "trait_type": "Weight",
+        "value": "9.5  kg"
+        }
+    ],
+    "description": "Totodile",
+    "url": "https://gateway.pinata.cloud/ipfs/QmYkaEgJWvU2ah6qkVJYrsTagXA19womGshA6wKBe5nAZx/5.jpg",
+    "name": "Totodile"
+}

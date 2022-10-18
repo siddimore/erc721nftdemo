@@ -1,0 +1,31 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Grass"
+        },
+        {
+            "trait_type": "Abilities",
+            "value": "Overgrow"
+        },
+        {
+          "trait_type": "Hidden Ability",
+          "value": "Chlorophyll"
+        },
+        {
+            "trait_type": "Species",
+            "value": "Seed Pokémon"
+        },
+        {
+          "trait_type": "Height",
+          "value": "0.7 m"
+        },
+        {
+        "trait_type": "Weight",
+        "value": "6.9 kg"
+        }
+    ],
+    "description": "Bulbasaur",
+    "url": "https://gateway.pinata.cloud/ipfs/QmYkaEgJWvU2ah6qkVJYrsTagXA19womGshA6wKBe5nAZx/2.jpg",
+    "name": "Bulbasaur"
+}
