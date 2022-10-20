@@ -6,18 +6,12 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  // Hardhat always runs the compile task when running scripts with its command
-  // line interface.
-  //
-  // If this script is run directly using `node` you may want to call compile
-  // manually to make sure everything is compiled
-  // await hre.run('compile');
-
-  // We get the contract to deploy
+  
+  // Set BaseTokenURI for Pokemon Collectible Metadata
   const baseTokenURI = "https://gateway.pinata.cloud/ipfs/QmQPo4qQYNJJHtz6CZtu1ULMQt8EwSQtLpSyWB39sU5Xyf/"; 
   // Get contract that we want to deploy
   const contractFactory = await ethers.getContractFactory("PokeMonCollectible");
-  // Deploy contract with the correct constructor arguments
+  // Deploy contract with constructor arguments
   const contract = await contractFactory.deploy(baseTokenURI);
 
    // Wait for this transaction to be mined
