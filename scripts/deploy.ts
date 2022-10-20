@@ -23,7 +23,7 @@ async function main() {
    // Wait for this transaction to be mined
    await contract.deployed();
 
-  console.log("NFTCollectible deployed to:", contract.address);
+  console.log("PokeMonCollectible deployed to:", contract.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
