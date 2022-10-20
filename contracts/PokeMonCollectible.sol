@@ -9,7 +9,6 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
 
-// https://coinsbench.com/how-to-write-a-simple-nft-erc-721-contract-with-open-zeppelin-9b47b44803a9
 contract PokeMonCollectible is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     using SafeMath for uint256;
     using Counters for Counters.Counter;
@@ -66,16 +65,7 @@ contract PokeMonCollectible is ERC721, ERC721Enumerable, ERC721URIStorage, Ownab
         require(success, "Transfer failed.");
     }
 
-    // function safeMint(address to, uint256 tokenId, string memory uri)
-    //     public
-    //     onlyOwner
-    // {
-    //     _safeMint(to, tokenId);
-    //     _setTokenURI(tokenId, uri);
-    // }
-
-    // // The following functions are overrides required by Solidity.
-
+    // Following functions are overrides required by Solidity.
     function _beforeTokenTransfer(address from, address to, uint256 tokenId)
         internal
         override(ERC721, ERC721Enumerable)
